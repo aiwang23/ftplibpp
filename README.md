@@ -23,7 +23,7 @@ NOSSL=1 make
 
 ftplibpp provides a c++ class providing ftp client functionality. It supports all basic ftp functionality plus some
 advanced features like resuming, fxp, ssl/tls encryption, large file support, or logging to fit todays standards. The
-very base of ftplibpp is Thomas Pfau's [ftplib c library](http://nbpfaus.net/%7Epfau/ftplib/).
+very base of ftplibpp is mkulke's [ftplib](https://github.com/mkulke/ftplibpp).
 
 Every ftp session is represented by an ftplib object, whose methods are called to communicate with the ftp server. The
 ftp sessions should begin with a call to `myftp.Connect("myftp.org:21")` (and maybe `myftp.NegotiateEncryption()` ), be
